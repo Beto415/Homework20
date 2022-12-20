@@ -1,13 +1,13 @@
 /* screen - the-color-of-clay */
-
+@-ms-viewport{ width: device-width; }
 .the-color-of-clay {
   align-items: flex-start;
   background-color: #ffffff;
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 2408px;
-  width: 1280px;
+  height: 100%;
+  width: flex;
 }
 
 .the-color-of-clay .header {
@@ -15,7 +15,7 @@
   background-color: var(--kilamanjaro);
   display: flex;
   height: 118px;
-  min-width: 1280px;
+  min-width: 100%;
   padding: 38.5px 51.5px;
 }
 
@@ -36,17 +36,17 @@
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
-  height: 508px;
+  height: 600px;
   min-width: 1280px;
   padding: 61px 52px;
 }
 
 .the-color-of-clay .frame-2 {
-  align-items: center;
+  align-items: center; border-radius: 10px;
   background-color: var(--seashell-peach-2);
   display: flex;
   flex-direction: column;
-  min-height: 255px;
+  min-height: 55px;
   padding: 22.5px 0;
   width: 303px;
 }
@@ -68,7 +68,7 @@
   font-family: var(--font-family-andale_mono-regular);
   font-size: var(--font-size-s);
   font-weight: 400;
-  letter-spacing: 0;
+  letter-spacing: 30;
   line-height: 20px;
   margin-right: 6.0px;
   margin-top: 18px;
@@ -113,7 +113,7 @@
   height: 58px;
   letter-spacing: 0;
   line-height: normal;
-  width: 268px;
+  width: px;
 }
 
 .the-color-of-clay .cards_container {
@@ -122,7 +122,7 @@
   display: flex;
   flex-direction: column;
   min-height: 1280px;
-  padding: 77px 52px;
+  padding: 70px 52px;
   width: 1280px;
 }
 
@@ -131,10 +131,10 @@
   font-family: var(--font-family-andale_mono-regular);
   font-size: var(--font-size-xl);
   font-weight: 400;
-  height: 100px;
-  letter-spacing: 0;
+  height: 400px;
+  letter-spacing: ;
   line-height: normal;
-  width: 665px;
+  width: 500px;
 }
 
 .the-color-of-clay .flex-row {
@@ -147,7 +147,7 @@
 
 .the-color-of-clay .sumerian_-kings_-list {
   align-items: flex-start;
-  background-color: #ffffff;
+  background-color: var(--seashell-peach);
   display: flex;
   min-width: 526px;
 }
@@ -155,7 +155,7 @@
 .the-color-of-clay .overlap-group {
   height: 484px;
   position: relative;
-  width: 532px;
+  width: 520px;
 }
 
 .the-color-of-clay .rectangle-43 {
@@ -164,7 +164,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 526px;
+  width: 526;
 }
 
 .the-color-of-clay .group-6 {
@@ -175,7 +175,7 @@
   min-height: 455px;
   position: absolute;
   top: 29px;
-  width: 532px;
+  width: 600px;
 }
 
 .the-color-of-clay .image-title {
@@ -222,7 +222,7 @@
   line-height: normal;
   margin-left: 49.0px;
   margin-top: 29px;
-  width: 276px;
+  width: px;
 }
 
 .the-color-of-clay .surname-1 {
@@ -230,7 +230,7 @@
   line-height: normal;
   margin-left: 49px;
   margin-top: 11px;
-  width: 199px;
+  width: 500px;
 }
 
 .the-color-of-clay .data-about-image-below-1 {
@@ -238,7 +238,7 @@
   line-height: normal;
   margin-left: 49.0px;
   margin-top: 47px;
-  width: 67px;
+  width: 300px;
 }
 
 .the-color-of-clay .epic_of_gilgamesh-1 {
@@ -272,7 +272,7 @@
   line-height: normal;
   margin-left: 48.77px;
   margin-top: 29px;
-  width: 276px;
+  width: 500px;
 }
 
 .the-color-of-clay .surname-2 {
@@ -329,7 +329,7 @@
   background-color: var(--seashell-peach-2);
   display: flex;
   gap: 128px;
-  height: 143px;
+  height: 200px;
   min-width: 1280px;
   padding: 0 264px;
 }
@@ -352,7 +352,7 @@
   display: flex;
   flex-direction: column;
   gap: 21px;
-  min-height: 103px;
+  min-height: 100px;
   width: 242px;
 }
 
@@ -363,7 +363,7 @@
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  width: 240px;
+  width: 350px;
 }
 
 .the-color-of-clay .frame-3-1 {
